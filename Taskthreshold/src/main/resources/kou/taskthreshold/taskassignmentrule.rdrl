@@ -1,0 +1,13 @@
+package kou.taskthreshold;
+
+import java.lang.Number;
+
+rule "taskassignmentrule"
+	dialect "java"
+	ruleflow-group "taskassignmentrule"
+	when
+		taskcounts : taskcounts( acount > 20 )
+	then
+		System.out.println("A maxed out, assign to B the salesguy");
+		taskcounts.setAssigneefromrule( "salesguy" );
+end

@@ -1,0 +1,22 @@
+
+<form id="1603348872">
+<property name="name" value="mytask-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="col1" type="InputText" id="1050412665">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;col1 (col1)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="col1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="col2" type="InputText" id="313354755">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;col2 (col2)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="col2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="col1" name="#FF54A7" type="basicType" outId="" value="java.lang.String" id="col1"/>
+<dataHolder inputId="col2" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="col2"/>
+</form>

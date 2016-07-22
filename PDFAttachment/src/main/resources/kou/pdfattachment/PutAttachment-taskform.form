@@ -1,0 +1,39 @@
+
+<form id="601874734">
+<property name="name" value="PutAttachment-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="doclocation" type="InputText" id="1401671404">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;doclocation (doclocation)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="doclocation"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="docname" type="InputText" id="1389145190">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;docname (docname)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="docname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="doctype" type="InputText" id="532774602">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;doctype (doctype)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="doctype"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="mydocument" type="Document" id="2031699590">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;document (mydocument)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="document"/>
+<property name="outputBinding" value="document"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
+<dataHolder inputId="doclocation" name="#BBBBBB" type="basicType" outId="" value="java.lang.String" id="doclocation"/>
+<dataHolder inputId="docname" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="docname"/>
+<dataHolder inputId="doctype" name="#FF54A7" type="basicType" outId="" value="java.lang.String" id="doctype"/>
+<dataHolder inputId="document" name="#9BCAFA" type="basicType" outId="document" value="org.jbpm.document.Document" id="mydocument"/>
+</form>
